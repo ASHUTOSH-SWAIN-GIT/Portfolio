@@ -121,7 +121,7 @@ export const DATA = {
       dates: "June 2023 - Present",
       active: true,
       description:
-        "Website to pitch startups.",
+        "Next.js project where startups can pitch their ideas and products. This project is built with  Sanity CMS, allowing users to explore various startups and their details.",
       technologies: [
         "Next.js",
         "sanity",
