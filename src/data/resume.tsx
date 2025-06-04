@@ -152,7 +152,8 @@ export const DATA = {
         "Built this frontend project for a hackathon.",
       technologies: [
         "Next.js",
-        "sanity",
+        "Gsap",
+        "Framer Motion",
         "TailwindCSS",
         "TypeScript",
       ],
