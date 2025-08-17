@@ -3,7 +3,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Ashutosh swain",
-  initials: "DV",
+  initials: "AS",
   url: "https://dillion.io",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
@@ -169,6 +169,35 @@ export const DATA = {
         },
       ],
       image: "/flipwise.png",
+      video: "",
+    },
+    {
+      title: "Paywise",
+      href: "https://paywise-lowkeydev.vercel.app/",
+      dates: "AUg 2025 - Present",
+      active: true,
+      description:
+        "A website to manage expenses and your recurring payments wisely ",
+      technologies: [
+        "Next.js",
+        "Gsap",
+        "Framer Motion",
+        "TailwindCSS",
+        "TypeScript",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://paywise-lowkeydev.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ASHUTOSH-SWAIN-GIT/paywise",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/paywise.png",
       video: "",
     },
    
