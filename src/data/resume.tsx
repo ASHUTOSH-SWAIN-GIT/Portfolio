@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Computer Science undergrad passionate about building, breaking, and learning through code. Always exploring new technologies and eager to tackle new challenges.",
   summary:
-    "I started coding in college and quickly found it both interesting and fun. I'm driven by the desire to build things that can make a real difference in people's daily lives. I'm also a member of one of our college's top tech clubs, CodeChef. My interests lie primarily in backend development and Web3 technologies. ",
+    "I started coding in college and quickly found it both interesting and fun. I'm driven by the desire to build things that can make a real difference in people's daily lives. I'm also a member of one of our college's top tech clubs, CodeChef. My interests lie primarily in backend development . ",
   avatarUrl: "/Profile.png",
   skills: [
     "React",
@@ -198,6 +198,39 @@ export const DATA = {
         },
       ],
       image: "/paywise.png",
+      video: "",
+    },
+    {
+      title: "Podstore",
+      href: "https://held-icecream-bca.notion.site/RIVERSIDE-CLONE-PROJECT-POW-23e11bbd1f3d8002acded7256497f9af",
+      dates: "AUg 2025 - Present",
+      active: false,
+      description:
+        "Podstore is a platform that lets you host video sessions with friends, record the conversations, and revisit them anytime later ",
+      technologies: [
+        "Next.js",
+        "Supabase",
+        "backblaze B2",
+        "Cloudflare R2",
+        "Upstash redis",
+        "web Rtc - livekit",
+        "mediarecorder api",
+        "TailwindCSS",
+        "TypeScript",
+      ],
+      links: [
+        {
+          type: "Notion link",
+          href: "https://held-icecream-bca.notion.site/RIVERSIDE-CLONE-PROJECT-POW-23e11bbd1f3d8002acded7256497f9af",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ASHUTOSH-SWAIN-GIT/podstore",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/podstore.png",
       video: "",
     },
    
